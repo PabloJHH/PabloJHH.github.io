@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #f0f0f0; /* Light gray background */
     color: #333;
     line-height: 1.6;
     padding-top: 20px;
@@ -17,6 +17,9 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 0 20px;
+    background-color: #fff; /* White container background */
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 header {
@@ -25,14 +28,14 @@ header {
 }
 
 h1 {
-    margin: 5px 0;
-    font-size: 2.5em;
-    color: #007bff;
+    margin: 10px 0;
+    font-size: 3em; /* Larger header size */
+    color: #007bff; /* Blue header color */
 }
 
 p {
-    margin: 5px 0;
-    color: #666;
+    margin: 10px 0;
+    color: #555; /* Darker text color */
 }
 
 section {
@@ -43,7 +46,7 @@ h2 {
     color: #333;
     border-bottom: 2px solid #007bff;
     padding-bottom: 10px;
-    font-size: 1.8em;
+    font-size: 2em; /* Larger section title */
 }
 
 ul {
@@ -53,27 +56,24 @@ ul {
 
 li {
     margin-bottom: 10px;
+    font-size: 1.2em; /* Larger list item */
 }
 
 a {
     color: #007bff;
     text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition */
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #0056b3; /* Darker color on hover */
 }
 
 /* Responsive styles */
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 2em;
+        font-size: 2.5em; /* Adjusted font size for smaller screens */
     }
     h2 {
-        font-size: 1.5em;
-    }
-    li {
-        font-size: 1em;
-    }
-}
+        font-size: 1.8em; /* 
 
